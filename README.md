@@ -1,5 +1,8 @@
 # PaarStip Co-Founder Matcher
 
+A Python script that matches co-founders based on their interests, skills, and location. It uses semantic matching with embeddings from Hugging Face models to find the best matches.
+The script allows for flexible matching options, including group matching and personalized recommendations.
+
 ## Features
 
 - ✅ Semantic matching using embeddings (local Hugging Face models)
@@ -12,6 +15,12 @@
 - ✅ Top-N filtering for performance
 - ✅ Exportable match results (CSV, DataFrame)
 - ✅ Built-in progress bars and parallel processing
+
+## Future Improvements
+
+- Add more matching criteria (e.g., work experience, education)
+- Implement a web interface for easier interaction
+- Integrate with Google API for automated data collection
 
 ## Requirements
 - Python
